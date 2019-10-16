@@ -1,3 +1,20 @@
+header {
+  background-color: gray;
+}
+
+main {
+  background-color: white;
+}
+
+main p {
+  font-weight: bold;
+  color: blue;
+}
+
+footer {
+  background-color: darkcyan;
+}
+
 body {
   background-color: #095e5e;
 }
