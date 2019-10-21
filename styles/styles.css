@@ -13,25 +13,26 @@ main {
   padding: 20px;
 }
 
-main a {
+a {
   text-decoration: none;
 }
 
-main a:link {
+a:link {
   color: #ffffff;
+  font-weight: bold;
 }
 
-main a:visited {
+a:visited {
   color: #46f1f1;
 }
 
-main a:hover {
+a:hover {
   color: #b9eeb9;
 }
 
 
 nav {
-  background-color: #9ec9c5;
+  background-color: #03b3b38a;
   padding: 20px;
   text-align: center;
 }
@@ -66,7 +67,7 @@ h1 {
 }
 
 h2 {
-  color: #1ac3b4;
+  color: #095e5e;
   font-size: 20px;
 }
 
@@ -74,6 +75,7 @@ h2 {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
+  color: #d4d3d3;
 }
 
 .red {
@@ -98,3 +100,7 @@ figure {
   padding: 5px;
   float: left;
 }  
+
+section.clear {
+  clear: both;
+}
