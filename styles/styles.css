@@ -13,6 +13,40 @@ main {
   padding: 20px;
 }
 
+main a {
+  text-decoration: none;
+}
+
+main a:link {
+  color: #ffffff;
+}
+
+main a:visited {
+  color: #46f1f1;
+}
+
+main a:hover {
+  color: #b9eeb9;
+}
+
+
+nav {
+  background-color: #9ec9c5;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  font-weight: bold;
+  color: #d4d3d3;
+}
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+  
+}
 
 footer {
   background-color: #03b3b38a;
