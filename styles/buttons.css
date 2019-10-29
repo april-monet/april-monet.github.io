@@ -1,0 +1,51 @@
+.styled-button {
+    margin: 50px;
+    padding: 10px 50px;
+    box-shadow: 0px 5px 10px 2px gray;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    color: #095e5e;
+  }
+  
+  .styled-button:hover {
+    background-color: #b9eeb9;
+    color: #ffffff;
+  }
+  
+  .styled-button:active {
+    background-color: #b9eeb9;
+    color: #f8d36d;
+  }
+  
+
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 22px;
+  }
+  
+  .btn-padding:hover {
+    background-color: aqua;
+    border-color: white;
+  }
+  
+  .btn-padding:active {
+    color: red;
+  }
+  
+  .button-wrapper{
+    border: 1px solid black;
+    display: inline-block;
+  }
+  
+  .bordered-button {
+    margin: 25px;
+    border: 10px solid teal;
+  }
+  
+  .btn-padded {
+    padding: 10px;
+    margin: 25px;
+    border: 10px solid teal;
+  }
