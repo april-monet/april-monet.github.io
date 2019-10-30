@@ -15,7 +15,6 @@
 }
 
 .preview {
-  border: solid 1px gray;
   height: 230px;
   width: 100%;
   display: flex;
