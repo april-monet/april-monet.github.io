@@ -18,6 +18,8 @@
   border: solid 1px gray;
   height: 230px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
@@ -34,4 +36,12 @@
 
 .strike {
   text-decoration: line-through;
+}
+
+.card a:link {
+  color: #0f586edb;
+}
+
+.card a:hover {
+  color: #bdebf9;
 }

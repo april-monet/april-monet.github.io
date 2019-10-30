@@ -1,0 +1,13 @@
+h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.large-image {
+  display: flex;
+  justify-content: center;
+}
+
+.method li {
+  margin-top: 20px;
+}
