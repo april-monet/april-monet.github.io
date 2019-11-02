@@ -11,3 +11,7 @@ h2 {
 .method li {
   margin-top: 20px;
 }
+
+.attribution {
+  display: flexbox;
+}
