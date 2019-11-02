@@ -85,13 +85,12 @@ h2 {
   color: #fdf3f3;
 }
 
-#home-content {
-  display: flex;
-  justify-content: center;
-  margin: 25px 10px;
-}
-
-#home-content img {
+#home-image {
+  float: right;
   border-radius: 3px;
   box-shadow: 0px 5px 20px 5px #716c6c;
+}
+
+#description {
+  float: left;
 }

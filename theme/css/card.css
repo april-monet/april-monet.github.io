@@ -21,6 +21,11 @@
   justify-content: center;
 }
 
+.small-attribution {
+  font-size: small;
+  font-style: italic;
+}
+
 .title {
   font-weight: bold;
   text-align: center;

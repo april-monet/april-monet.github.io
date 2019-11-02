@@ -8,10 +8,36 @@ h2 {
   justify-content: center;
 }
 
+.info {
+  text-align: center;
+}
+
+.info li {
+  display: inline;
+  margin: 8px 20px;
+}
+
 .method li {
   margin-top: 20px;
 }
 
 .attribution {
   display: flexbox;
+}
+
+.aside {
+  background-color: #cbdde4;
+  border: #989696 1px solid;
+  border-radius: 5px;
+  float: right;
+  font-style: italic;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  padding: 8px;
+  width: 150px;
+  font-size: smaller;
+}
+
+#cookies {
+  float: left;
 }
