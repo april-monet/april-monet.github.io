@@ -1,11 +1,18 @@
 window.onload = () => {
-    const listButton = document.getElementById('run-for-loop');
+    const elfCode = {
+        appendToList: (list, value) => {
+            const li = document.createElement("li");
+            li.appendChild(document.createTextNode(value));
+            list.appendChild(li);
+        }
+    };
+    const listButton = document.getElementById('runForLoopAction');
 
     listButton.onclick = () => {
-        const myList = document.getElementById('my-list');
-            // WRAP THE NEXT LINE IN A for-loop that iterates over a variable named i. 
-            // The loop should iterate 5 times (count from zero to five).
-            elfCode.appendToList(myList, i);
-            // END LOOP
+        const myList = document.getElementById('myList');
+            for(let i=0; i<5; i++){
+
+                elfCode.appendToList(myList, i);
+            }
     }
 }
