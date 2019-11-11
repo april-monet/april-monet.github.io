@@ -40,7 +40,6 @@ window.onload = () => {
 
   listButton.onclick = () => {
     const newList = document.getElementById("listDisplay");
-    // let name = document.getElementById("nameDisplay");
     addToList.appendToList(newList, nameDisplay.value);
   };
 
