@@ -4,11 +4,15 @@ const arrays = {
     ]
 }
 
+arrays.numbers.sort((a, b) => a - b);
+
 const techLanguages = {
     languages: [
         'JavaScript', 'HTML', 'CSS', 'Java', 'C#', 'Python', 'C/C++'
     ]
 }
+
+techLanguages.languages.sort();
 
 const languageRanking = [
     {
