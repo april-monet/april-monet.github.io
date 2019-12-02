@@ -1,0 +1,138 @@
+header {
+    background-color: #08a975;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header p {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  main {
+    background-color: #c4f3ee;
+    padding: 20px;
+  }
+  
+  #welcome {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #fff8e9;
+    font-weight: bold;
+  }
+  
+  a:visited {
+    color: #34da85;
+  }
+  
+  a:hover {
+    color: #6df0f0;
+  }
+  
+  nav {
+    background-color: #05b39b;
+    padding: 20px;
+    text-align: center;
+    line-height: 35px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    font-weight: bold;
+    color: #d4d3d3;
+  }
+  
+  nav li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  footer {
+    background-color: #148c65;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  body {
+    background-color: #155440;
+    margin: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  h1 {
+    color: #cdf8f9;
+    font-size: 25px;
+  }
+  
+  h2 {
+    color: #384679;
+    font-size: 20px;
+  }
+  
+  .byline {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #384679;
+  }
+  
+  #special-heading {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  figure {
+    background-color: lightslategray;
+    border: black solid thin;
+    padding: 5px;
+    float: left;
+  }
+  
+  section.clear {
+    clear: both;
+  }
+  
+  .styled-button {
+    margin: 10px;
+    padding: 10px 50px;
+    box-shadow: 0px 5px 10px 2px gray;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #384679;
+    background: #f78e83;
+  }
+  
+  .styled-button:hover {
+    background-color: #f8d36d;;
+    color: #f78e83;
+  }
+  
+  .styled-button:active {
+    background-color: #f8d36d;;
+    color: #eec5c0;
+  }
+
+  button {
+    float: left;
+    width: 205px;
+  }
+  
+  input {
+    float: left;
+    width: 150px;
+    height: 22px;
+    margin: 14px 10px 10px 25px;
+    /* margin-top: 16px;
+      margin-left: 5px; */
+  }
+  
+  div {
+    clear: both;
+  }
