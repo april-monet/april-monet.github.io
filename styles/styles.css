@@ -1,6 +1,7 @@
 header {
   background-color: #94929278;
   padding: 20px;
+  text-align: center;
 }
 
 header p {
@@ -11,6 +12,10 @@ header p {
 main {
   background-color: #ffffffb5;
   padding: 20px;
+}
+
+#welcome {
+  text-align: center;
 }
 
 a {
