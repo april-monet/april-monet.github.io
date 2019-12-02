@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="../styles/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/radio-choices.css" />
+    <link rel="shortcut icon" href="../favicon.png" type="image/png" />
+    <script src="radio-choices.js"></script>
+    <title>Radio Choices</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Radio Choices
+      </h1>
+    </header>
+    <main>
+      <section>
+        <fieldset>
+          <legend>The User Selection</legend>
+          <p><b>User choice</b>: <span id="user-choice">Unknown</span></p>
+        </fieldset>
+      </section>
+      <section id="form-section">
+        <fieldset>
+          <legend>Our Form</legend>
+          <form id="sort-type" action="goThere">
+            <input type="radio" id="blue" name="sorter" value="Blue" checked />
+            <label for="blue">Blue</label>
+            <input type="radio" id="green" name="sorter" value="Green" />
+            <label for="green">Green</label>
+            <input type="radio" id="salmon" name="sorter" value="Salmon" />
+            <label for="salmon">Salmon</label>
+            <input
+              type="radio"
+              id="goldenrod"
+              name="sorter"
+              value="Goldenrod"
+            />
+            <label for="goldenrod">Goldenrod</label>
+            <input type="radio" id="orchid" name="sorter" value="Orchid" />
+            <label for="orchid">Orchid</label>
+            <input
+              type="radio"
+              id="normal"
+              name="sorter"
+              value="Reset to Normal"
+            />
+            <label for="normal">Reset to Normal</label>
+            <div>
+              <input class="styled-button" type="submit" value="Submit" />
+            </div>
+          </form>
+        </fieldset>
+      </section>
+    </main>
+    <footer>
+      Copyright &copy; 2019 by April Cound
+      <p>
+        <a href="../index.html">Home</a>
+      </p>
+    </footer>
+  </body>
+</html>

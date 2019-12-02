@@ -42,7 +42,6 @@ const languageRanking = [
 ];
 
 languageRanking.sort(compareRank);
-// Code omitted here
 
 function compareRank(a, b) {
   const rankA = a.rank;
