@@ -1,0 +1,79 @@
+.styled-button {
+  background-color: #f08a74fc;
+  color: #ffffff;
+  margin: 50px;
+  padding: 10px 50px;
+  box-shadow: 0px 5px 10px 2px gray;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.styled-button:hover {
+  background-color: #edb6aafc;
+  color: #384679;
+}
+
+.styled-button:active {
+  background-color: #edb6aafc;
+  color: #f8d36d;
+}
+
+.btn-padding {
+  padding: 20px;
+  border: 20px #88b305 double;
+  border-radius: 12px;
+  margin: 20px;
+  color: #9b1a9b;
+  font-weight: bold;
+  font-size: 11pt;
+}
+
+.btn-padding:hover {
+  background-color: #5e3d0c;
+  border-color: #f74c4c;
+  color: #f3ae2e;
+}
+
+.btn-padding:active {
+  color: red;
+}
+
+.button-wrapper {
+  border: 1px solid #9b1a9b;
+  display: inline-block;
+}
+
+.bordered-button {
+  margin: 25px;
+  border: 10px solid #045449;
+}
+
+.btn-padded {
+  padding: 10px;
+  margin: 25px;
+  border: 10px dotted #045449;
+}
+
+#switchStylesAction {
+  margin: 20px;
+  padding: 10px 50px;
+  box-shadow: 0px 5px 10px 2px gray;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
+  font-size: 10pt;
+  color: #095e5e;
+  background-color: #ebe9e9;
+}
+
+#switchStylesAction:hover {
+  background-color: #b9eeb9;
+  color: #ffffff;
+}
+
+#switchStylesAction:active {
+  background-color: #b9eeb9;
+  color: #f8d36d;
+}

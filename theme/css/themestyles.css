@@ -94,3 +94,11 @@ h2 {
 #description {
   float: left;
 }
+
+#style-switcher {
+  margin: 20px;
+}
+
+#switchStylesAction {
+  margin-left: 10px;
+}
